@@ -19,7 +19,7 @@ setup(
     install_requires=[
         "Django >=1.8.7, < 1.9a0",
         "pillow>=3.1.1",
-        "python-resize-image==1.1.10"
+        "python-resize-image==1.1.11"
     ],
     zip_safe=False,
     classifiers=[
