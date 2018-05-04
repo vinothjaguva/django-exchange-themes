@@ -17,7 +17,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "Django >=1.8.7, < 2.0.5",
+        "Django >=2.0.4",
         "pillow>=3.1.1",
         "python-resize-image==1.1.11"
     ],
