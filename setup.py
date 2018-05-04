@@ -32,6 +32,6 @@ setup(
         'Development Status :: 3 - Alpha',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3.5',
-        'Framework :: Django :: 2.0.4',
+        'Framework :: Django :: 2.0',
     ]
 )
