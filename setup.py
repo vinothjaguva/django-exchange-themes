@@ -6,7 +6,7 @@ with open('README.rst', 'r') as inp:
 
 setup(
     name='django-exchange-themes',
-    version='1.0.3',
+    version='1.0.4',
     author='Boundless Spatial, Maxime Haineault (django-colorfield)',
     author_email='contact@boundlessgeo.com',
     url='https://github.com/boundlessgeo/django-exchange-themes',
@@ -17,9 +17,9 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        "Django >=1.8.7, < 1.9a0",
+        "Django >=2.0.4",
         "pillow>=3.1.1",
-        "python-resize-image==1.1.10"
+        "python-resize-image==1.1.11"
     ],
     zip_safe=False,
     classifiers=[
@@ -31,7 +31,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Development Status :: 3 - Alpha',
         'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2.7',
-        'Framework :: Django :: 1.8',
+        'Programming Language :: Python :: 3.5',
+        'Framework :: Django :: 2.0.4',
     ]
 )
